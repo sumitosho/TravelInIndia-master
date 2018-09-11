@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.apple.travelinindia">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SignUpActivity"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Travel"
+            android:label="@string/title_activity_travel"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".city.Agra" />
+        <activity android:name=".city.Delhi" />
+        <activity android:name=".cityactivity.AgraActivity" />
+        <activity android:name=".cityactivity.DelhiActivity" />
+        <activity android:name=".cityactivity.JaipurActivity" />
+        <activity android:name=".cityactivity.VaranasiActivity" />
+        <activity android:name=".cityactivity.MumbaiActivity" />
+        <activity android:name=".cityactivity.UdaipurActivity" />
+        <activity android:name=".cityactivity.JodhpurActivity" />
+        <activity android:name=".cityactivity.GoaActivity" />
+        <activity android:name=".cityactivity.KochiActivity" />
+        <activity android:name=".cityactivity.JaisalmerActivity" />
+        <activity android:name=".cityactivity.RishikeshActivity" />
+        <activity android:name=".cityactivity.HimachalActivity" />
+        <activity android:name=".cityactivity.Amritsar" />
+        <activity android:name=".cityactivity.BengaluruActivity" />
+        <activity android:name=".cityactivity.ShimlaActivity" />
+        <activity android:name=".cityactivity.ChennaiActivity" />
+        <activity android:name=".cityactivity.KolkataActivity" />
+        <activity android:name=".cityactivity.DarjeelingActivity" />
+        <activity android:name=".cityactivity.MysoreActivity" />
+        <activity android:name=".cityactivity.AlappuzhaActivity" />
+        <activity android:name=".cityactivity.DharamshalaActivity" />
+        <activity android:name=".cityactivity.MunnarActivity" />
+        <activity android:name=".cityactivity.FatehpurActivity" />
+        <activity android:name=".cityactivity.HaridwarActivity" />
+        <activity android:name=".cityactivity.ChandigarhActivity" />
+        <activity android:name=".cityactivity.KhajurahoActivity" />
+        <activity android:name=".cityactivity.HampiActivity" />
+        <activity android:name=".cityactivity.GangtokActivity" />
+        <activity android:name=".cityactivity.PushkarActivity" />
+        <activity android:name=".cityactivity.ThiruActivity" />
+        <activity android:name=".cityactivity.Pondicherry" />
+        <activity android:name=".cityactivity.MaduraiActivity" />
+        <activity android:name=".cityactivity.AhmedabadActivity" />
+        <activity android:name=".cityactivity.HyderabadActivity" />
+        <activity android:name=".cityactivity.AurangabadActivity" />
+        <activity android:name=".cityactivity.KovalamActivity" />
+        <activity android:name=".cityactivity.NainitalActivity" />
+        <activity android:name=".cityactivity.PuneActivity" />
+        <activity android:name=".cityactivity.AjmerActivity" />
+        <activity android:name=".cityactivity.PortblairActivity" />
+        <activity android:name=".cityactivity.PangongActivity" />
+        <activity android:name=".cityactivity.MamallapuramActivity" />
+        <activity android:name=".cityactivity.KodaikanalActivity" />
+        <activity android:name=".cityactivity.BikanerActivity" />
+        <activity android:name=".cityactivity.DehradunActivity" />
+        <activity android:name=".cityactivity.AndamanActivity"></activity>
+    </application>
+
+</manifest>
